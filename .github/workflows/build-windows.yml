@@ -26,12 +26,12 @@ jobs:
 
     - name: Build executable
       run: |
-        pyinstaller --onefile your_script.py  # Replace with your script name
+        pyinstaller --onefile defensecrawler.py  # Replace with your script name
 
     - name: Archive executable
       run: |
         mkdir -p output
-        move dist\your_script.exe output\your_script.exe  # Update with your script name
+        move dist\defensecrawler.exe output\defensecrawler.exe  # Update with your script name
 
     - name: Upload executable
       uses: actions/upload-artifact@v2
