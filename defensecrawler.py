@@ -96,7 +96,10 @@ def create_obj_list(contract_list):
         amount = first[first.index("$"):first.index("Contracting")].strip()
         stramt = amount
         amount = amount.strip("$").replace(",", "")
-        amount = int(amount)
+        try:
+            amount = int(amount)
+        except:
+            amount = 0
 
         branch = first[first.index("Contracting Branch: "):first.index("Project")].strip().strip("Contracting Branch:")
 
