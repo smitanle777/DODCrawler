@@ -43,7 +43,7 @@ def fetch_page(url):
 #     article_links = [link.get_attribute("href") for link in contract_links]
 
 #     # for link in article_links:
-#     #     print(link)
+#     #     print(link) trigger
 
 #     return article_links
 
