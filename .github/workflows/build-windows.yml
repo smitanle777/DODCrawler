@@ -1,40 +1,30 @@
-name: Build Windows Executable
+name: Build Windows Executable January
 
 on:
   push:
     branches:
-      - main  # Change this to your main branch if different
-  workflow_dispatch:  # Allows you to trigger the workflow manually
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
-    runs-on: windows-latest  # Use the latest Windows environment
+    runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.8.9'  # Specify the Python version you need
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8.9  # Change to your Python version
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyinstaller
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller
 
-    - name: Build executable
-      run: |
-        pyinstaller --onefile defensecrawler.py  # Replace with your script name
+      - name: Build exe
 
-    - name: Archive executable
-      run: |
-        mkdir -p output
-        move dist\defensecrawler.exe output\defensecrawler.exe  # Update with your script name
-
-    - name: Upload executable
-      uses: actions/upload-artifact@v2
-      with:
-        name: your_script-executable
-        path: output/
