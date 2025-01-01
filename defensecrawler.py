@@ -42,7 +42,6 @@ def fetch_page(url):
 #     # Extract the href attributes
 #     article_links = [link.get_attribute("href") for link in contract_links]
 
-#     # # Print the links
 #     # for link in article_links:
 #     #     print(link)
 
