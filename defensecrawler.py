@@ -126,7 +126,11 @@ def main():
     ai_output = submit_to_ai(contract_text)
     objs_ouput = create_obj_list(ai_output)
     ordered_objs = order_by_contract_size(objs_ouput)
-    for i in range(len(ordered_objs)): 
+    if len(ordered_objs) < 5:
+        x = ordered_objs
+    else:
+        x = 5
+    for i in range(x): 
         print(ordered_objs[i])
         print("\n")
 
