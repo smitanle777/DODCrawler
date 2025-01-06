@@ -68,7 +68,7 @@ def parse_page(html):
 
 def submit_to_ai(daily_contract):
     client = OpenAI()
-    content_plus_contract = "Please list the names of the companies awarded a contract, the dollar amount of the contract, the branch that was creating the contract, what is being asked, the delivery due date, and the stock ticker for the company if applicable. Use Textron Aviation as the template for each contract: Textron Aviation Inc. Contract Amount: $8,388,771 Contracting Branch: Navy Project: Production and delivery of a multi-engine training system aircraft Delivery Due Date: November 2025 Stock Ticker: TXT There should be no new lines except for one inbetween each contract template. Add no labels in between each template contract. If any of the categories do not apply or do not have an answer, put N/A. If the contract is awarded to multiple companies, list all companies separated by semicolons on the same line under 'Company.' Ensure the format remains consistent.: " + daily_contract
+    content_plus_contract = "Please list the names of the companies awarded a contract, the dollar amount of the contract, the branch that was creating the contract, what is being asked, the delivery due date, and the stock ticker for the company if applicable. Use Textron Aviation as the template for each contract: Textron Aviation Inc. Contract Amount: $8,388,771 Contracting Branch: Navy Project: Production and delivery of a multi-engine training system aircraft Delivery Due Date: November 2025 Stock Ticker: TXT There should be no new lines except for one inbetween each contract template. Add no labels in between each template contract. If any of the categories do not apply or do not have an answer, put N/A. If the contract is awarded to multiple companies, list all companies separated by semicolons on the same line under 'Company.' Ensure the format remains consistent, even if there are fewer than 5 contracts listed.: " + daily_contract
     completion = client.chat.completions.create(
     model="gpt-4o",
     messages=[
@@ -127,7 +127,7 @@ def main():
     objs_ouput = create_obj_list(ai_output)
     ordered_objs = order_by_contract_size(objs_ouput)
     if len(ordered_objs) < 5:
-        x = ordered_objs
+        x = len(ordered_objs)
     else:
         x = 5
     for i in range(x): 
