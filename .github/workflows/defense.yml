@@ -29,12 +29,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller
+          pip install --upgrade pyinstaller
 
       # Step 4: Build the executable
       - name: Build exe
         run: |
-          pyinstaller --onefile defensecrawler.py  # Build defensecrawler.py into a single executable
+          pyinstaller --onefile --clean defensecrawler.py  # Build defensecrawler.py into a single executable
 
       # Step 5: Upload the built executable as an artifact
       - name: Upload executable
