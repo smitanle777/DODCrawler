@@ -30,6 +30,7 @@ jobs:
 
     - name: Create batch file
       run: |
+        mkdir output
         echo @echo off > output\run_defensecrawler.bat
         echo start "" defensecrawler.exe >> output\run_defensecrawler.bat
         echo pause >> output\run_defensecrawler.bat
