@@ -31,7 +31,7 @@ jobs:
     - name: Create batch file using PowerShell
       run: |
         mkdir output
-        Set-Content -Path output\run_defensecrawler.bat -Value "@echo off`nstart `"`" /B defensecrawler.exe`npause"
+        Set-Content -Path output\run_defensecrawler.bat -Value "@echo off`ncmd /k defensecrawler.exe"
         move dist\defensecrawler.exe output\defensecrawler.exe
   
     - name: Upload artifact
