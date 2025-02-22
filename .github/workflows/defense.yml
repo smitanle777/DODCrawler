@@ -23,23 +23,16 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install selenium requests openai pyinstaller
-
     - name: Build executable
       run: |
         pyinstaller --onefile --hidden-import=requests --hidden-import=selenium --hidden-import=openai defensecrawler.py
-
     - name: Create batch file
       run: |
         mkdir output
         echo @echo off > output\run_defensecrawler.bat
-        echo start /b defensecrawler.exe >> output\run_defensecrawler.bat
-        echo. >> output\run_defensecrawler.bat
-        echo echo Press any key to exit... >> output\run_defensecrawler.bat
-        echo pause >> output\run_defensecrawler.bat
+        echo defensecrawler.exe >> output\run_defensecrawler.bat
         echo exit >> output\run_defensecrawler.bat
         move dist\defensecrawler.exe output\defensecrawler.exe
-
-
   
     - name: Upload artifact
       uses: actions/upload-artifact@v4
