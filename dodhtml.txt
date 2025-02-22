@@ -1,57 +1,43 @@
-Raytheon Missiles and Defense Contract Amount: $2,089,200,000 Contracting Branch: Army Project: Low-rate initial production of Lower Tier Air and Missile Defense System Delivery Due Date: November 2028 Stock Ticker: RTX
+Lockheed Martin Corp. Contract Amount: $3,910,000,000 Contracting Branch: Navy Project: Training system and simulation design, development, integration, test, production, deployment, modifications/upgrades, and sustainment for the F-35 Lightening II aircraft Delivery Due Date: September 2028 Stock Ticker: LMT
 
-BAE Systems Land and Armaments L.P. Contract Amount: $274,426,742 Contracting Branch: Army Project: Production and delivery of M109A7 Self-Propelled Howitzer and M992A3 Carrier Delivery Due Date: July 31, 2026 Stock Ticker: BAESF
+Lockheed Martin Corp., Lockheed Martin Aeronautics Co. Contract Amount: $1,006,436,959 Contracting Branch: Navy Project: Continued support, upgrades, and maintenance for F-35 Joint Strike Fighter (JSF) program Delivery Due Date: March 2027 Stock Ticker: LMT
 
-General Dynamics Land Systems Inc. Contract Amount: $174,470,943 Contracting Branch: Army Project: Retrofit and repair to support Stryker family of vehicles Delivery Due Date: February 28, 2029 Stock Ticker: GD
+Lockheed Martin Corp., Lockheed Martin Aeronautics Co. Contract Amount: $194,261,630 Contracting Branch: Navy Project: Supplies for initial depot capability and repairs for F-35 Lightning II aircraft Delivery Due Date: December 2029 Stock Ticker: LMT
 
-Northrop Grumman Systems Corp. Contract Amount: $99,218,332 Contracting Branch: Army Project: Ammunition cannisters and training cannisters Delivery Due Date: December 31, 2026 Stock Ticker: NOC
+BAE Systems - San Diego Ship Repair Contract Amount: $177,821,136 Contracting Branch: Navy Project: Repair, maintenance, and modernization of the USS Halsey (DDG 97) Delivery Due Date: April 2026 Stock Ticker: BAESY
 
-Collins Aerospace Contract Amount: $96,833,769 Contracting Branch: Army Project: Mounted position, navigation and timing system procurement Delivery Due Date: July 26, 2026 Stock Ticker: RTX
+Advanced Technology International Contract Amount: $99,000,000 Contracting Branch: Navy Project: Operation and management of the ONR ManTech NSAM COE Delivery Due Date: August 2029 Stock Ticker: N/A
 
-Chimes District of Columbia Contract Amount: $47,638,213 Contracting Branch: Army Project: Custodial services Delivery Due Date: May 31, 2029 Stock Ticker: N/A
+Vigor Marine LLC Contract Amount: $76,102,395 Contracting Branch: Navy Project: Maintenance, modernization, and repair of USS John S McCain (DDG 56) Delivery Due Date: November 2025 Stock Ticker: N/A
 
-Crawford Consulting Services Inc. Contract Amount: $45,000,000 Contracting Branch: Army Project: Quality assurance services Delivery Due Date: July 30, 2029 Stock Ticker: N/A
+Design West Technologies Inc. Contract Amount: $27,000,584 Contracting Branch: Navy Project: Manufacture and delivery of Vertical Launching System components and kits Delivery Due Date: November 2025 Stock Ticker: N/A
 
-Rockwell Collins Inc. Contract Amount: $36,057,868 Contracting Branch: Army Project: Common Avionics Architecture System updates Delivery Due Date: August 2, 2027 Stock Ticker: RTX
+Huntington Ingalls Inc. Contract Amount: $18,394,985 Contracting Branch: Navy Project: Support for pre-advanced planning for Nimitz (CVN 68) Class aircraft carrier Delivery Due Date: November 2024 Stock Ticker: HII
 
-AICI-Archirodon JV Contract Amount: $31,888,000 Contracting Branch: Army Project: Build facilities overseas Delivery Due Date: June 22, 2026 Stock Ticker: N/A
+Vector Atomic Inc. Contract Amount: $16,000,000 Contracting Branch: Navy Project: Design and development of tactical atomic clocks prototype Delivery Due Date: February 2028 Stock Ticker: N/A
 
-ECA Federal LLC Contract Amount: $23,999,837 Contracting Branch: Army Project: Commercial item solution to meet information collection management requirements Delivery Due Date: July 31, 2029 Stock Ticker: N/A
+Luneh Inc. Contract Amount: $15,927,619 Contracting Branch: Navy Project: Rental of lodging for Docking Selected Restricted Availability project team Delivery Due Date: July 2025 Stock Ticker: N/A
 
-Sealing Technologies LLC Contract Amount: $9,588,231 Contracting Branch: Army Project: Deployable Defensive Cyber Operations System support Delivery Due Date: July 30, 2027 Stock Ticker: N/A
+National Marine Mammal Foundation Inc. Contract Amount: $8,605,849 Contracting Branch: Navy Project: Marine mammal program support and management Delivery Due Date: August 2025 Stock Ticker: N/A
 
-C.E.R. Inc.; CJW Contractors Inc.; Edifice Services JV LLC; ENCON Desbuild JV3 LLC; EVCON-CWC JV LLC; Fastbreak General Contractors LLC; Ocean Construction Services Inc.; Ritz Construction Contract Amount: $750,000,000 Contracting Branch: Navy Project: Design-build/design-bid-build construction contract for small general construction projects Delivery Due Date: July 2032 Stock Ticker: N/A
+General Atomics Contract Amount: $8,535,855 Contracting Branch: Navy Project: Voyage Repair Team fly away kits and technical data package Delivery Due Date: September 2026 Stock Ticker: N/A
 
-Lockheed Martin Contract Amount: $84,990,855 Contracting Branch: Navy Project: Littoral Combat Ship class design support and integrated data and product model environment support Delivery Due Date: August 2025 Stock Ticker: LMT
+Halvik Corp. Contract Amount: $87,134,131 Contracting Branch: Army Project: Operation and support of Army Training Requirements and Resources System Delivery Due Date: August 2029 Stock Ticker: N/A
 
-Austal USA Contract Amount: $54,997,317 Contracting Branch: Navy Project: Construction of two landing craft Utility 1700 class craft Delivery Due Date: March 2027 Stock Ticker: N/A
+Aevex Aerospace LLC Contract Amount: $47,973,846 Contracting Branch: Army Project: Equipment, maintenance, and repair services Delivery Due Date: August 2029 Stock Ticker: N/A
 
-BAE Systems Land & Armaments L.P. Contract Amount: $47,000,000 Contracting Branch: Navy Project: Procure two MK 45 Mod 2 to Mod 4 upgrades Delivery Due Date: March 2028 Stock Ticker: BAESF
+Grunley Construction Co. Inc. Contract Amount: $37,183,892 Contracting Branch: Army Project: Construction of a guided missile maintenance facility Delivery Due Date: March 31, 2027 Stock Ticker: N/A
 
-Triumvirate Environmental Inc. Contract Amount: $43,917,192 Contracting Branch: Navy Project: Hazardous waste transportation and disposal Delivery Due Date: July 2029 Stock Ticker: N/A
+Lead Builders Inc. Contract Amount: $32,274,070 Contracting Branch: Army Project: Repair a hangar Delivery Due Date: February 2, 2026 Stock Ticker: N/A
 
-BAE Systems Land & Armaments L.P. Contract Amount: $26,329,545 Contracting Branch: Navy Project: Procurement of three additional MK110 Mod 0 gun mounts Delivery Due Date: May 2027 Stock Ticker: BAESF
+L.S. Black Constructors LLC Contract Amount: $30,166,297 Contracting Branch: Army Project: Building maintenance and repair Delivery Due Date: November 27, 2026 Stock Ticker: N/A
 
-Brunswick and Topsham Water District Contract Amount: $18,500,000 Contracting Branch: Navy Project: Construction of a drinking water treatment system Delivery Due Date: September 2028 Stock Ticker: N/A
+Manson Construction Co. Contract Amount: $30,000,000 Contracting Branch: Army Project: Rental of a hopper dredge Delivery Due Date: October 28, 2025 Stock Ticker: N/A
 
-Huntington Ingalls Inc. Contract Amount: $11,717,322 Contracting Branch: Navy Project: Additional support for pre-advanced planning for Nimitz (CVN 68) class aircraft carrier defueling and inactivation Delivery Due Date: November 2024 Stock Ticker: HII
+TeamGOV Inc. Contract Amount: $8,907,432 Contracting Branch: Army Project: Preventive maintenance and repair of HVAC equipment Delivery Due Date: September 29, 2029 Stock Ticker: N/A
 
-New York Embroidery Studio Inc. Contract Amount: $48,329,544 Contracting Branch: Defense Logistics Agency Project: Coats, trousers, and maternity slacks Delivery Due Date: July 29, 2029 Stock Ticker: N/A
+Amentum Services Contract Amount: $19,325,288 Contracting Branch: Air Force Project: Aerial Targets Program support Delivery Due Date: September 30, 2025 Stock Ticker: N/A
 
-Labriute Meals Contract Amount: $20,539,483 Contracting Branch: Defense Logistics Agency Project: Meals, religious, ready-to-eat, kosher Delivery Due Date: August 8, 2029 Stock Ticker: N/A
+MicroTechnologies LLC Contract Amount: $12,900,000 Contracting Branch: Air Force Project: Support for Combined Air and Space Operations Center Delivery Due Date: March 2, 2025 Stock Ticker: N/A
 
-MP Mine Operations LLC Contract Amount: $10,951,503 Contracting Branch: Defense Logistics Agency Project: Magnet grade Neodymium Oxide and Praseodymium Oxide materials Delivery Due Date: July 31, 2025 Stock Ticker: N/A
-
-Industries of the Blind Inc. Contract Amount: $8,137,440 Contracting Branch: Defense Logistics Agency Project: Trousers Delivery Due Date: July 30, 2026 Stock Ticker: N/A
-
-Lockheed Martin Rotary & Missions Systems Contract Amount: $37,587,781 Contracting Branch: Missile Defense Agency Project: Development and sustainment of the Missile Defense Agency's Objective Simulation Framework Modeling and Simulation System Delivery Due Date: April 15, 2026 Stock Ticker: LMT
-
-Lockheed Martin Corp., Missiles and Fire Control Contract Amount: $19,161,388 Contracting Branch: Missile Defense Agency Project: THAAD Configuration 3.1 Part A Ground Modernization equipment Delivery Due Date: January 1, 2027 Stock Ticker: LMT
-
-Meneses & McFadden, CARTOR, Vitor Hugo Carvalho, Lda. Contract Amount: $25,000,000 Contracting Branch: Air Force Project: Simplified acquisition of base engineering requirements Delivery Due Date: July 30, 2029 Stock Ticker: N/A
-
-XSITE LLC Contract Amount: $23,552,136 Contracting Branch: Air Force Project: Operation and sustainment of the Modeling and Simulation Software Analysis Tool Delivery Due Date: June 30, 2029 Stock Ticker: N/A
-
-Northrop Grumman Systems Corp. Contract Amount: $9,323,188 Contracting Branch: Air Force Project: Australian Mission Processor 3 (AMP 3) contractor logistics support Delivery Due Date: March 31, 2029 Stock Ticker: NOC
-
-Leader Communications Inc. Contract Amount: $7,842,487 Contracting Branch: Air Force Project: Battle Control Systems-Fixed Delivery Due Date: February 8, 2030 Stock Ticker: N/A
+Irvington Maintenance Venture LLC Contract Amount: $7,847,427 Contracting Branch: Air Force Project: Grounds maintenance services Delivery Due Date: September 30, 2029 Stock Ticker: N/A

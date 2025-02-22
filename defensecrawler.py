@@ -17,7 +17,7 @@ class Contract:
         self.stramt = stramt
 
     def __str__(self):
-        return f"{self.company} \nContract Amount: {self.stramt} \nContracting Branch: {self.branch} \nProject: {self.project} \nDelivery Due Date: {self.duedate} \nStock Ticker: {self.stockticker}"
+        return f"{self.company}  \nStock Ticker: {self.stockticker} \nContract Amount: {self.stramt} \nContracting Branch: {self.branch} \nProject: {self.project} \nDelivery Due Date: {self.duedate}"
 
 def fetch_page(url):
     # get the text from the url given by the user
@@ -61,7 +61,7 @@ def submit_to_ai(daily_contract):
     contracts = completion.choices[0].message.content.strip().split("\n")
 
     # uncomment below to see what the ai model produces
-    # f = open("Desktop/DadProj/dodhtml.txt", "w")
+    # f = open("dodhtml.txt", "w")
     # f.write(completion.choices[0].message.content)
     # f.close()
 
@@ -79,22 +79,24 @@ def create_obj_list(contract_list):
         company = first[0: first.index("Contract Amount:")].strip()
 
         amount = first[first.index("$"):first.index("Contracting")].strip()
+        # store amount as a string
         stramt = amount
+        # convert to int and store as amount
         amount = amount.strip("$").replace(",", "")
         try:
             amount = int(amount)
         except:
             amount = 0
 
-        branch = first[first.index("Contracting Branch: "):first.index("Project")].strip().strip("Contracting Branch:")
+        branch = first[first.index("Contracting Branch: "):first.index("Project")].strip().replace("Contracting Branch: ", "")
 
-        project = first[first.index("Project: "):first.index("Delivery Due Date:")].strip().strip("Project:")
+        project = first[first.index("Project: "):first.index("Delivery Due Date:")].strip().replace("Project: ", "")
         project = project.strip()
 
-        duedate = first[first.index("Delivery Due Date:"):first.index("Stock Ticker:")].strip().strip("Delivery Due Date:")
+        duedate = first[first.index("Delivery Due Date:"):first.index("Stock Ticker:")].strip().replace("Delivery Due Date: ", "")
         duedate = duedate.strip()
 
-        stockticker = first[first.index("Stock Ticker:"):].strip().strip("Stock Ticker:")
+        stockticker = first[first.index("Stock Ticker:"):].strip().replace("Stock Ticker: ", "")
         stockticker = stockticker.strip()
 
         c = Contract(company, amount, branch, project, duedate, stockticker, stramt)
