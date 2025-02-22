@@ -32,7 +32,7 @@ jobs:
       run: |
         mkdir output
         echo @echo off > output\run_defensecrawler.bat
-        echo defensecrawler.exe >> output\run_defensecrawler.bat
+        echo start "" /B defensecrawler.exe >> output\run_defensecrawler.bat
         echo exit >> output\run_defensecrawler.bat
         move dist\defensecrawler.exe output\defensecrawler.exe
   
